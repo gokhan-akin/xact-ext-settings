@@ -7,17 +7,22 @@
 		"dialer_admin":"true"
 	},
 	"dialerHide": {
-		"box9":"true",
-		"box7":"true",
-		"DVprovince":"false",
-		"DVstate":"false",
-		"kontocheck":"false",
-		"DV13910":"false",
-		"DV13911":"false",
-		"DVvendor_lead_code":"false",
-		"DVcustom1":"false",
-		"DVcustom2":"false",
-		"DVaddress3":"false",
-		"DVdate_of_birth":"false"
+		"box9":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA", "2ASPECTA","2BAADVAN","2BMOVIDO","2BSPECTA","LIST_AAD","RGI","RGIAADVA","RGISPECT","UPSELLIN"],
+		"box7":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA", "2ASPECTA","2BAADVAN","2BMOVIDO","2BSPECTA","LIST_AAD","RGI","RGIAADVA","RGISPECT","UPSELLIN"],
+		"DVprovince":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"DVstate":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"kontocheck":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"DV13910":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"DV13911":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"DVvendor_lead_code":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"DVcustom1":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"DVcustom2":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"DVaddress3":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
+		"DVdate_of_birth":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"]
+	},
+	"campagne": {
+		"movido":["1A","1BSALE","1CMOVIDO","2BMOVIDO","RGI","UPSELLIN"],
+		"aadvanto":["1BAADWPA","1CAADVAN","2BAADVAN","LIST_AAD","RGIAADVA"],
+		"spectario":["1AWPA","2ASPECTA","2BSPECTA","RGISPECT"]
 	}
 }
