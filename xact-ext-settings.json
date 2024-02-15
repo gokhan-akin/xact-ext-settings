@@ -1,7 +1,7 @@
 {
 	"settingsCheckInterval":15,
 	"useXactWPA": true,
-	"xactWpaLogo":"https://lh3.googleusercontent.com/qU-r7L2Lou4oSDCNBtHlB6K_WQfsGeWGMWgJ8w8jo4NKT9uuLBM6EStVk1M3W8A2ZDEI_XTeGc6iJxOatHinfcu86Q",
+	"xactWpaLogo":"https://static.wixstatic.com/media/52c20f_81ecada198bb4544adbe3afcbaad8835~mv2.png",
 	"xactWpaLink":"https://www.xact-solution.com/analyse",
 	"dialerHide": {
 		"box9":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA", "2ASPECTA","2BAADVAN","2BMOVIDO","2BSPECTA","LIST_AAD","RGI","RGIAADVA","RGISPECT","UPSELLIN"],
