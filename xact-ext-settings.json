@@ -4,7 +4,7 @@
 	"xactWpaLogo":"https://static.wixstatic.com/media/52c20f_81ecada198bb4544adbe3afcbaad8835~mv2.png",
 	"xactWpaLink":"https://www.xact-solution.com/analyse",
 	"dialerRemoveUnnecessaryForms":true,
-	"addUbCheckToDialer":false,
+	"addUbCheckToDialer":true,
 	"addWpaStatsToDialer":true,
 	"dialerHide": {
 		"box9":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA", "2ASPECTA","2BAADVAN","2BMOVIDO","2BSPECTA","LIST_AAD","RGI","RGIAADVA","RGISPECT","UPSELLIN"],
