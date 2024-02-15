@@ -7,6 +7,17 @@
 		"dialer_admin":"true"
 	},
 	"dialerHide": {
-		
+		"box9":"true",
+		"box7":"true",
+		"DVprovince":"false",
+		"DVstate":"false",
+		"kontocheck":"false",
+		"DV13910":"false",
+		"DV13911":"false",
+		"DVvendor_lead_code":"false",
+		"DVcustom1":"false",
+		"DVcustom2":"false",
+		"DVaddress3":"false",
+		"DVdate_of_birth":"false"
 	}
 }
