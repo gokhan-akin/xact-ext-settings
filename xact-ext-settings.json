@@ -1,11 +1,8 @@
 {
-	"settingsCheckInterval": "15",
-	"useXactWPA": "true",
-	"useRandomApiKeys": {
-		"dialer": "true",
-		"agentsystem": "true",
-		"dialer_admin":"true"
-	},
+	"settingsCheckInterval":15,
+	"useXactWPA": true,
+	"xactWpaLogo":"https://lh3.googleusercontent.com/qU-r7L2Lou4oSDCNBtHlB6K_WQfsGeWGMWgJ8w8jo4NKT9uuLBM6EStVk1M3W8A2ZDEI_XTeGc6iJxOatHinfcu86Q",
+	"xactWpaLink":"https://www.xact-solution.com/analyse",
 	"dialerHide": {
 		"box9":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA", "2ASPECTA","2BAADVAN","2BMOVIDO","2BSPECTA","LIST_AAD","RGI","RGIAADVA","RGISPECT","UPSELLIN"],
 		"box7":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA", "2ASPECTA","2BAADVAN","2BMOVIDO","2BSPECTA","LIST_AAD","RGI","RGIAADVA","RGISPECT","UPSELLIN"],
@@ -24,5 +21,9 @@
 		"movido":["1A","1BSALE","1CMOVIDO","2BMOVIDO","RGI","UPSELLIN"],
 		"aadvanto":["1BAADWPA","1CAADVAN","2BAADVAN","LIST_AAD","RGIAADVA"],
 		"spectario":["1AWPA","2ASPECTA","2BSPECTA","RGISPECT"]
+	},
+	"useRandomApiKeys": {
+		"dialer": true,
+		"steroid":true
 	}
 }
