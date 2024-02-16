@@ -26,7 +26,7 @@
 		"spectario":["1AWPA","2ASPECTA","2BSPECTA","RGISPECT"]
 	},
 	"useRandomApiKeys": {
-		"dialer": true,
-		"steroid":true
+		"dialer": "true",
+		"steroid":"true"
 	}
 }
