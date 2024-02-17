@@ -28,5 +28,6 @@
 	"useRandomApiKeys": {
 		"dialer": "true",
 		"steroid":"true"
-	}
+	},
+	"debug":true
 }
