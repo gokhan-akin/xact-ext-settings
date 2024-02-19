@@ -29,5 +29,5 @@
 		"dialer": "true",
 		"steroid":"true"
 	},
-	"debug":true
+	"debug":false
 }
