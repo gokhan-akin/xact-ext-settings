@@ -28,5 +28,6 @@
 		"dialer": "true",
 		"steroid":"true"
 	},
-	"debug":false
+	"debug":false,
+	"settingsUrl":"https://cdn.jsdelivr.net/gh/gokhan-akin/xact-ext-settings@latest/xact-ext-settings.json"
 }
