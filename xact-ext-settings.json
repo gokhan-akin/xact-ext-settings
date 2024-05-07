@@ -1,33 +1,164 @@
 {
-	"settingsCheckInterval":"20",
-	"useXactWPA": "true",
-	"xactWpaLogo":"https://static.wixstatic.com/media/52c20f_81ecada198bb4544adbe3afcbaad8835~mv2.png",
-	"xactWpaLink":"https://www.xact-solution.com/analyse",
-	"dialerRemoveUnnecessaryForms":"true",
-	"addUbCheckToDialer":"true",
-	"addWpaStatsToDialer":"true",
-	"dialerHide": {
-		"box9":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA", "2ASPECTA","2BAADVAN","2BMOVIDO","2BSPECTA","LIST_AAD","RGI","RGIAADVA","RGISPECT","UPSELLIN"],
-		"box7":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA", "2ASPECTA","2BAADVAN","2BMOVIDO","2BSPECTA","LIST_AAD","RGI","RGIAADVA","RGISPECT","UPSELLIN"],
-		"DVprovince":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
-		"DVstate":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
-		"kontocheck":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
-		"DV13910":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
-		"DV13911":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
-		"DVvendor_lead_code":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
-		"DVcustom2":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
-		"DVaddress3":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"],
-		"DVdate_of_birth":["1A","1AWPA","1BSALE","1BAADWPA","1CAADVAN","1CMOVIDO","1CSPECTA"]
-	},
-	"campagne": {
-		"movido":["1A","1BSALE","1CMOVIDO","2BMOVIDO","RGI","UPSELLIN"],
-		"aadvanto":["1BAADWPA","1CAADVAN","2BAADVAN","LIST_AAD","RGIAADVA"],
-		"spectario":["1AWPA","2ASPECTA","2BSPECTA","RGISPECT"]
-	},
-	"useRandomApiKeys": {
-		"dialer": "true",
-		"steroid":"true"
-	},
-	"debug":false,
-	"settingsUrl":"https://cdn.jsdelivr.net/gh/gokhan-akin/xact-ext-settings@latest/xact-ext-settings.json"
+    "settingsCheckInterval": 30,
+    "useXactWPA": true,
+    "xactWpaLogo": "https://static.wixstatic.com/media/52c20f_81ecada198bb4544adbe3afcbaad8835~mv2.png",
+    "xactWpaLink": "https://www.xact-solution.com/analyse",
+    "dialerRemoveUnnecessaryForms": true,
+    "addUbCheckToDialer": true,
+    "addWpaStatsToDialer": true,
+    "dialerHide": {
+        "box9": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA",
+            "2ASPECTA",
+            "2BAADVAN",
+            "2BMOVIDO",
+            "2BSPECTA",
+            "LIST_AAD",
+            "RGI",
+            "RGIAADVA",
+            "RGISPECT",
+            "UPSELLIN"
+        ],
+        "box7": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA",
+            "2ASPECTA",
+            "2BAADVAN",
+            "2BMOVIDO",
+            "2BSPECTA",
+            "LIST_AAD",
+            "RGI",
+            "RGIAADVA",
+            "RGISPECT",
+            "UPSELLIN"
+        ],
+        "DVprovince": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ],
+        "DVstate": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ],
+        "kontocheck": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ],
+        "DV13910": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ],
+        "DV13911": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ],
+        "DVvendor_lead_code": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ],
+        "DVcustom2": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ],
+        "DVaddress3": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ],
+        "DVdate_of_birth": [
+            "1A",
+            "1AWPA",
+            "1BSALE",
+            "1BAADWPA",
+            "1CAADVAN",
+            "1CMOVIDO",
+            "1CSPECTA"
+        ]
+    },
+    "campagne": {
+        "movido": [
+            "1A",
+            "1BSALE",
+            "1CMOVIDO",
+            "2BMOVIDO",
+            "RGI",
+            "UPSELLIN"
+        ],
+        "aadvanto": [
+            "1BAADWPA",
+            "1CAADVAN",
+            "2BAADVAN",
+            "LIST_AAD",
+            "RGIAADVA"
+        ],
+        "spectario": [
+            "1AWPA",
+            "2ASPECTA",
+            "2BSPECTA",
+            "RGISPECT"
+        ]
+    },
+    "useRandomApiKeys": {
+        "dialer": true,
+        "steroid": true
+    },
+    "dialerQueryLinks": [
+        "*://agent.dial24.net/*",
+        "*://agent.tntdial.de/*",
+        "*://movido.dial24.net/*",
+        "*://stg-dialer.united-solution.de/*",
+        "*://dial.aadvanto.com/agent*",
+        "*://webdial.aadvanto.com/agent*"
+    ],
+    "debug": false
 }
