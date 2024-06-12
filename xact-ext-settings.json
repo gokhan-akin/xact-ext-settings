@@ -158,7 +158,8 @@
         "*://movido.dial24.net/*",
         "*://stg-dialer.united-solution.de/*",
         "*://dial.aadvanto.com/agent*",
-        "*://webdial.aadvanto.com/agent*"
+        "*://webdial.aadvanto.com/agent*",
+        "*://webdial.unidial.net/agent*"
     ],
     "debug": false
 }
