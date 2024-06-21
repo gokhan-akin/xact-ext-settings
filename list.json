@@ -39,8 +39,8 @@
             "ankara": "",
             "kayseri": "",
             "bursa": "",
-            "kirsehir": "10522",
-            "default": "10522"
+            "kirsehir": "9",
+            "default": "9"
         }
     },
     "agents": [
