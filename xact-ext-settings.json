@@ -153,6 +153,7 @@
         "steroid": true
     },
     "dialerQueryLinks": [
+        "*://agent.tcdial.com/campaigns/*",
         "*://agent.dial24.net/*",
         "*://agent.tntdial.de/*",
         "*://movido.dial24.net/*",
